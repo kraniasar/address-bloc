@@ -8,7 +8,7 @@ RSpec.describe Entry do
   end
 
   it "should respond to phone_number" do
-    entry = Entry.new('Ada Lovelace' '010.012.1815', 'augusta.king@lovelace.com')
+    entry = Entry.new('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com')
     expect(entry).to respond_to(:phone_number)
   end
 
